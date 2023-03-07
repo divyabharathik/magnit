@@ -1,0 +1,39 @@
+1. Do you feel that your salary and allowances are fair and competitive in comparison to others in your industry with similar qualifications and experience?
+  yes
+  no
+
+2.How productive do you feel in your current workspace?
+  a. Very productive
+  b. Somewhat productive
+  c. Neutral
+  d. Not very productive
+  e. Not at all productive
+
+3. How satisfied are you with the opportunities for professional development and advancement within your current role and the company?
+  a. Extremely satisfied
+  b. Somewhat satisfied
+  c. Neutral
+  d. Somewhat dissatisfied
+  e. Extremely dissatisfied
+
+4. How satisfied are you with the company's leave policies and your ability to take time off when you need it?
+  a. Extremely satisfied
+  b. Somewhat satisfied
+  c. Neutral
+  d. Somewhat dissatisfied
+  e. Extremely dissatisfied
+
+5. What improvements would you like to see from the company in terms of employee development? Select all that apply.
+  a. More training opportunities
+  b. Better access to career growth opportunities
+  c. More opportunities for cross-functional collaboration
+  d. More mentoring and coaching programs
+  e. Increased transparency around promotion criteria and opportunities
+  f. Improved communication about company strategy and goals
+  g. More opportunities to attend industry events and conferences
+  h. More opportunities to participate in company-sponsored community service activities
+  i. More opportunities to work on projects outside of your current job responsibilities
+  j. Other (please specify)
+
+6. If you could design your ideal work-life balance, what would it look like? What changes would you make to your work schedule
+ or workload, and what would you do with your newfound free time outside of work?

@@ -1,0 +1,55 @@
+<section>
+
+  <form class="container" *ngIf="!finished" [formGroup]="feebackForm" #form="ngForm"
+    [ngClass]="{'container-finish' : finish}">
+    <div class="question-container" *ngIf="currentQuestion">
+      <div class="question-title">{{currentQuestion.questionText}}
+        <span *ngIf="feebackForm.controls['radioGroup'].touched && feebackForm.controls['radioGroup'].invalid"
+          class="error-msg">*required</span>
+      </div>
+      <div class="options-container">
+        <mat-radio-group aria-label="Select an option" class="options"
+          *ngIf="currentQuestion.questionType == 'radioGroup'" (change)="setAnswer()"
+          formControlName="radioGroup">
+
+          <mat-radio-button *ngFor="let options of currentQuestion.options" [value]="options.score"
+            [checked]="options.score==currentQuestion.answer">{{options.optionDescription}}</mat-radio-button>
+        </mat-radio-group>
+        <mat-form-field appearance="fill" class="multipleDropdown"
+          *ngIf="currentQuestion.questionType == 'multiSelect'">
+          <mat-label>Select all that apply.</mat-label>
+          <mat-select formControlName="multiSelect" multiple (selectionChange)="setAnswer()">
+            <mat-option *ngFor="let options of currentQuestion.options"
+              [value]="options.score">{{options.optionDescription}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="fill" class="multipleDropdown" *ngIf="currentQuestion.questionType == 'textarea'">
+          <textarea formControlName="textarea" matInput rows="7" (keydown)="setAnswer()"></textarea>
+        </mat-form-field>
+      </div>
+      <div class="actions-container">
+        <button mat-stroked-button color="primary" (click)="previous()"
+          [disabled]="this.currentQnIndex==0">Previous</button>
+        <button mat-raised-button color="primary" [disabled]="currentQuestion.answer ==0"
+          (click)="next()">{{(this.currentQnIndex < this.questionsList.length-1) ? 'Next'
+            :'Finish'}}</button>
+      </div>
+    </div>
+    <div class="image-container" *ngIf="currentQuestion">
+      <img class="image-bg" [src]="currentQuestion.imageAsset">
+    </div>
+  </form>
+  <div class="result" *ngIf="finished">
+    <h1>Employee Satisfaction Index</h1>
+    <mat-slider color="primary" min="1" max="16" [value]="satisfactionIndex">
+      <input matSliderThumb>
+    </mat-slider>
+
+    <div class="satisfaction-indicator-images">
+      <img src="./../../assets/not-satisfied.svg" alt="Not Satisfied" class="image">
+      <img src="./../../assets/neutral.svg" alt="Neutral" class="image">
+      <img src="./../../assets/very-satisfied.svg" alt="Very Satisfied" class="image">
+    </div>
+  </div>
+
+</section>
