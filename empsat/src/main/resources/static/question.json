@@ -1,151 +1,159 @@
 [
-    {
-      "id": 1,
-      "questionText": "How productive do you feel in your current workspace?",
-      "options": [
-        {
-          "optionDescription": "Very productive",
-          "score": 5
-        },
-        {
-          "optionDescription": "Somewhat productive",
-          "score": 4
-        },
-        {
-          "optionDescription": "Neutral",
-          "score": 3
-        },
-        {
-          "optionDescription": "Not very productive",
-          "score": 2
-        },
-        {
-          "optionDescription": "Not at all productive",
-          "score": 1
-        }
-      ],
-      "answer": ""
-    },
-    {
-      "id": 2,
-      "questionText": "How satisfied are you with the opportunities for professional development and advancement within your current role and the company?",
-      "options": [
-        {
-          "optionDescription": "Extremely satisfied",
-          "score": 5
-        },
-        {
-          "optionDescription": "Somewhat satisfied",
-          "score": 4
-        },
-        {
-          "optionDescription": "Neutral",
-          "score": 3
-        },
-        {
-          "optionDescription": "Somewhat dissatisfied",
-          "score": 2
-        },
-        {
-          "optionDescription": "Extremely dissatisfied",
-          "score": 1
-        }
-      ],
-      "answer": ""
-    },
-    {
-      "id": 3,
-      "questionText": "Do you feel that your salary and allowances are fair and competitive in comparison to others in your industry with similar qualifications and experience?",
-      "options": [
-        {
-          "optionDescription": "Yes",
-          "score": 1
-        },
-        {
-          "optionDescription": "No",
-          "score": 0
-        }
-      ],
-      "answer": ""
-    },
-    {
-      "id": 4,
-      "questionText": "How satisfied are you with the company's leave policies and your ability to take time off when you need it?",
-      "options": [
-        {
-          "optionDescription": "Extremely satisfied",
-          "score": 5
-        },
-        {
-          "optionDescription": "Somewhat satisfied",
-          "score": 4
-        },
-        {
-          "optionDescription": "Neutral",
-          "score": 3
-        },
-        {
-          "optionDescription": "Somewhat dissatisfied",
-          "score": 2
-        },
-        {
-          "optionDescription": "Extremely dissatisfied",
-          "score": 1
-        }
-      ],
-      "answer": ""
-    },
-    {
-      "id": 5,
-      "questionText": "What improvements would you like to see from the company in terms of employee development? Select all that apply.",
-      "options": [
-        {
-          "optionDescription": "No Improvement needed! Everything is good",
-          "score": 10
-        },
-        {
-          "optionDescription": "Better access to career growth opportunities",
-          "score": -1
-        },
-        {
-          "optionDescription": "More opportunities for cross-functional collaboration",
-          "score": -1
-        },
-        {
-          "optionDescription": "More mentoring and coaching programs",
-          "score": -1
-        },
-        {
-          "optionDescription": "Increased transparency around promotion criteria and opportunities",
-          "score": -1
-        },
-        {
-          "optionDescription": "Improved communication about company strategy and goals",
-          "score": -1
-        },
-        {
-          "optionDescription": "More opportunities to attend industry events and conferences",
-          "score": -1
-        },
-        {
-          "optionDescription": "More opportunities to participate in company-sponsored community service activities",
-          "score": -1
-        },
-        {
-          "optionDescription": "More opportunities to work on projects outside of your current job responsibilities",
-          "score": -1
-        },
-        {
-          "optionDescription": "Other (please specify)",
-          "score": -1
-        }
-      ],
-      "answer": ""
-    },
-    {
-      "id": 6,
-      "questionText": "If you could design your ideal work-life balance, what would it look like? What changes would you make to your work schedule  or workload, and what would you do with your newfound free time outside of work?",
-      "options": [],
-      "answer": ""
-    }
-  ]
+  {
+    "id": 1,
+    "questionText": "How productive do you feel in your current workspace?",
+    "options": [
+      {
+        "optionDescription": "Very productive",
+        "score": 5
+      },
+      {
+        "optionDescription": "Somewhat productive",
+        "score": 4
+      },
+      {
+        "optionDescription": "Neutral",
+        "score": 3
+      },
+      {
+        "optionDescription": "Not very productive",
+        "score": 2
+      },
+      {
+        "optionDescription": "Not at all productive",
+        "score": 1
+      }
+    ],
+    "questionType": "radioGroup",
+    "answer": 0,
+    "imageAsset": "./../assets/productive.svg"
+  },
+  {
+    "id": 2,
+    "questionText": "How satisfied are you with the opportunities for professional development and advancement within your current role and the company?",
+    "options": [
+      {
+        "optionDescription": "Extremely satisfied",
+        "score": 5
+      },
+      {
+        "optionDescription": "Somewhat satisfied",
+        "score": 4
+      },
+      {
+        "optionDescription": "Neutral",
+        "score": 3
+      },
+      {
+        "optionDescription": "Somewhat dissatisfied",
+        "score": 2
+      },
+      {
+        "optionDescription": "Extremely dissatisfied",
+        "score": 1
+      }
+    ],
+    "questionType": "radioGroup",
+    "answer": 0,
+    "imageAsset": "./../assets/improvements.svg"
+  },
+  {
+    "id": 3,
+    "questionText": "Do you feel that your salary and allowances are fair and competitive in comparison to others in your industry with similar qualifications and experience?",
+    "options": [
+      {
+        "optionDescription": "Yes",
+        "score": 1
+      },
+      {
+        "optionDescription": "No",
+        "score": -1
+      }
+    ],
+    "questionType": "radioGroup",
+    "answer": 0,
+    "imageAsset": "./../assets/salary.svg"
+  },
+  {
+    "id": 4,
+    "questionText": "How satisfied are you with the company's leave policies and your ability to take time off when you need it?",
+    "options": [
+      {
+        "optionDescription": "Extremely satisfied",
+        "score": 5
+      },
+      {
+        "optionDescription": "Somewhat satisfied",
+        "score": 4
+      },
+      {
+        "optionDescription": "Neutral",
+        "score": 3
+      },
+      {
+        "optionDescription": "Somewhat dissatisfied",
+        "score": 2
+      },
+      {
+        "optionDescription": "Extremely dissatisfied",
+        "score": 1
+      }
+    ],
+    "questionType": "radioGroup",
+    "answer": 0,
+    "imageAsset": "./../assets/leave-policy.svg"
+  },
+  {
+    "id": 5,
+    "questionText": "What improvements would you like to see from the company in terms of employee development?",
+    "options": [
+      {
+        "optionDescription": "Better access to career growth opportunities",
+        "score": -1
+      },
+      {
+        "optionDescription": "More opportunities for cross-functional collaboration",
+        "score": -1
+      },
+      {
+        "optionDescription": "More mentoring and coaching programs",
+        "score": -1
+      },
+      {
+        "optionDescription": "Increased transparency around promotion criteria and opportunities",
+        "score": -1
+      },
+      {
+        "optionDescription": "Improved communication about company strategy and goals",
+        "score": -1
+      },
+      {
+        "optionDescription": "More opportunities to attend industry events and conferences",
+        "score": -1
+      },
+      {
+        "optionDescription": "More opportunities to participate in company-sponsored community service activities",
+        "score": -1
+      },
+      {
+        "optionDescription": "More opportunities to work on projects outside of your current job responsibilities",
+        "score": -1
+      },
+      {
+        "optionDescription": "Other (please specify)",
+        "score": -1
+      }
+    ],
+    "questionType": "multiSelect",
+    "answer": 0,
+    "imageAsset": "./../assets/opportunities.svg"
+  },
+  {
+    "id": 6,
+    "questionText": "If you could design your ideal work-life balance, what would it look like? What changes would you make to your work schedule  or workload, and what would you do with your newfound free time outside of work?",
+    "options": [],
+    "questionType": "textarea",
+    "answer": 0,
+    "imageAsset": "./../assets/work-life-balance.svg"
+  }
+]

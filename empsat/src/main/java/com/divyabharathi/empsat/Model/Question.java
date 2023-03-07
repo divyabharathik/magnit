@@ -8,13 +8,17 @@ public class Question {
     private int id;
     private String questionText;
     private ArrayList<OptionModel> options;
-    private String answer;
+    private int answer;
+    private String questionType;
+    private String imageAsset;
 
-    public Question(int id, String questionText, ArrayList<OptionModel> options, String answer) {
+    public Question(int id, String questionText, ArrayList<OptionModel> options, int answer, String questionType, String imageAsset) {
         this.id = id;
         this.questionText = questionText;
         this.options = options;
         this.answer = answer;
+        this.questionType = questionType;
+        this.imageAsset = imageAsset;
     }
 
     public int getId() {
@@ -41,11 +45,27 @@ public class Question {
         this.options = options;
     }
 
-    public String getAnswer() {
+    public int getAnswer() {
         return answer;
     }
 
-    public void setAnswer(String answer) {
+    public void setAnswer(int answer) {
         this.answer = answer;
+    }
+
+    public String getQuestionType() {
+        return questionType;
+    }
+
+    public void setQuestionType(String questionType) {
+        this.questionType = questionType;
+    }
+
+    public String getImageAsset() {
+        return imageAsset;
+    }
+
+    public void setImageAsset(String imageAsset) {
+        this.imageAsset = imageAsset;
     }
 }
